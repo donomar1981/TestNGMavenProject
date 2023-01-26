@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Ecomm-regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="regression(failed)">
+    <classes>
+      <class name="tests.SignupTests">
+        <methods>
+          <include name="signUpPageTest"/>
+          <include name="setup"/>
+          <include name="quitDriver"/>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="test5"/>
+        </methods>
+      </class> <!-- tests.SignupTests -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [Ecomm-regression] -->

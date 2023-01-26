@@ -1,0 +1,22 @@
+{
+    "id": 2323448,
+    "category": {
+        "id": 17,
+        "name": "cat"
+    },
+    "name": "Ghost",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 28,
+            "name": "persian"
+        },
+        {
+            "id": 24,
+            "name": "Anatolian"
+        }
+    ],
+    "status": "available"
+}

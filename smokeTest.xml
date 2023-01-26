@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Ecomm-smoke">
+	<test name="UI-smokeTests">
+		<groups>
+			<run>
+				<include name="smoke-test"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.SignupTests"></class>
+		</classes>
+	</test>
+</suite>
